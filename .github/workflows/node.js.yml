@@ -22,7 +22,7 @@ jobs:
           node-version: '18.17.1'
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run Jest Tests
         run: npm test
